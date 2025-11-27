@@ -1,8 +1,8 @@
 import sys
 
-if len(sys.agrv)==2:
+if len(sys.argv)==2:
   script_name=sys.argv[0]
-  salary=sys.argv[1]
+  salary=float(sys.argv[1])
 else:
   script_name=sys.argv[0]
   salary=10000
